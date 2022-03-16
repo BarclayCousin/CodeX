@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap");
 
 :root {
-  --primary-color: #047aed;
-  --secondary-color: #1c3fa8;
-  --dark-color: #002240;
+  --primary-color: #6e6e6e;
+  --secondary-color: #3f3f3f;
+  --dark-color: #272727;
   --light-color: #f4f4f4;
   --success-color: #5cb85c;
   --error-color: #d9534f;
@@ -16,7 +16,7 @@
 }
 
 body {
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
   color: #333;
   line-height: 1.6;
 }
@@ -75,7 +75,7 @@ pre {
 }
 
 .navbar a:hover {
-  border-bottom: 2px #fff solid;
+  border-bottom: 2px rgb(0, 0, 0) solid;
 }
 
 .navbar .flex {
@@ -123,8 +123,8 @@ pre {
   margin: 30px 0;
 }
 
-.showcase-form input[type='text'],
-.showcase-form input[type='email'] {
+.showcase-form input[type="text"],
+.showcase-form input[type="email"] {
   border: 0;
   border-bottom: 1px solid #b4becb;
   width: 100%;
@@ -138,7 +138,7 @@ pre {
 
 .showcase::before,
 .showcase::after {
-  content: '';
+  content: "";
   position: absolute;
   height: 100px;
   bottom: -70px;
@@ -267,15 +267,15 @@ pre {
 }
 
 .fa-facebook:hover {
-  color: #1773EA;
+  color: #1773ea;
 }
 
 .fa-instagram:hover {
-  color: #B32E87;
+  color: #b32e87;
 }
 
 .fa-twitter:hover {
-  color: #1C9CEA;
+  color: #1c9cea;
 }
 
 /* Animations */
@@ -385,7 +385,7 @@ pre {
     padding: 10px;
     background-color: rgba(0, 0, 0, 0.1);
   }
-  
+
   .showcase-form {
     width: 300px;
   }
