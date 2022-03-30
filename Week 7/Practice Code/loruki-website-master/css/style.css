@@ -111,7 +111,7 @@ pre {
 .showcase-form {
   position: relative;
   top: 60px;
-  height: 350px;
+  height: 390px;
   width: 400px;
   padding: 40px;
   z-index: 100;
@@ -124,7 +124,8 @@ pre {
 }
 
 .showcase-form input[type="text"],
-.showcase-form input[type="email"] {
+.showcase-form input[type="email"],
+.showcase-form input[type="phone no."] {
   border: 0;
   border-bottom: 1px solid #b4becb;
   width: 100%;
@@ -276,6 +277,14 @@ pre {
 
 .fa-twitter:hover {
   color: #1c9cea;
+}
+
+.fa-linkedin:hover {
+  color: #0051ff;
+}
+
+.fa-discord:hover {
+  color: #0051ff;
 }
 
 /* Animations */
