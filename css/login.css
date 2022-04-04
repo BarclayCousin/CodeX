@@ -2,13 +2,19 @@ body{
   margin: 0;
   padding: 0;
   font-family: arial;
-  background-image: url("/img/loginback.jpg");
+  background-image: url("/img/loginback.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
 }
 
+h1{
+  color: white;
+  margin-left: 8%;
+  font-size: 25px;
+
+}
 .center{
   position: absolute;
   top: 50%;
