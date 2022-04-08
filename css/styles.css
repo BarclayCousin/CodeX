@@ -116,11 +116,12 @@
 .bodyabout {
   font-family: Arial;
   margin: 0;
+  background-color: rgb(197, 197, 197);
 }
 
-.h1login{
+.h1about{
   color: white;
-  margin-left: 8%;
+  float: center;
   font-size: 25px;
 
 }
@@ -131,11 +132,19 @@ html {
 
 p{
   color: white;
+  font-weight: bold;
 }
 
 
-.h2login{
+.h2about{
+  color: rgb(0, 0, 0);
+}
+
+.aabout {
   color: white;
+  font-family: Arial;
+  margin: 0;
+  float: center;
 }
 
 *, *:before, *:after {
@@ -146,7 +155,7 @@ p{
   float: left;
   width: 33.3%;
   margin-bottom: 16px;
-  padding: 0 8px;s
+  padding: 0 8px;
 }
 
 .card {
