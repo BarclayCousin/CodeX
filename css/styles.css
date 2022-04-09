@@ -204,6 +204,73 @@ p{
   background-color: rgb(66, 64, 64);
 }
 
+
+/*Footer*/
+
+.footer{
+  padding: 40px 0;
+  background-color: purple;
+}
+
+.footer .social-media{
+ text-align: center;
+ padding: 25px;
+ color: purple;
+ 
+}
+
+.footer .social-media a {
+  font-size: 30px;
+  color: white;
+  border: 1px solid;
+  width: 40px;
+  height: 40px;
+  line-height: 38px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 50%;
+  margin: 0 8px;
+  opacity: .75;
+}
+
+.footer .social-media a:hover {
+  opacity: .95;
+}
+
+.footer ul {
+  margin-top: 0;
+  padding: 0;
+  list-style: none;
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+.footer ul li a {
+  color: white;
+  text-decoration: none;
+  opacity: 0.8;
+}
+
+.footer ul li {
+ display: inline-block;
+ padding: 0 15px;
+}
+
+.footer ul li a:hover {
+  opacity: 1;
+}
+
+.footer .copyright-logo {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 14px;
+  color: white;
+}
+
+
+/* Responsiveness */
 @media screen and (max-width: 650px) {
   .column {
     width: 100%;
