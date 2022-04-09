@@ -1,0 +1,10 @@
+/*navbar*/
+.navbar {
+    background-color: #7f01fe;
+    color: black;
+    display: flex;
+    height: 70px;
+    align-items: center;
+   padding-left: 200px; 
+   font-family: 'Times New Roman', Times, serif;
+}
