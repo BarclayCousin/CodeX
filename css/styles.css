@@ -26,6 +26,29 @@
   font-weight: bold;
 }
 
+/* FAQ Page */
+
+.h1faq{
+  color: #000000;
+  font-size: 50px;
+  font-weight: bold;
+  padding-left: 600px;
+}
+
+.faq-question {
+  color: #000000;
+  font-size: 40px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.faq-answer {
+  color: #000000;
+  font-size: 20px;
+}
+
+
+
 /* Home Page */
 
 
