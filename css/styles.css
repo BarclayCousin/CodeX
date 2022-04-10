@@ -14,12 +14,16 @@
     height: 70px;
     align-items: center;
     padding-left: 600px; 
-    font-family: 'Times New Roman', Times, serif;
+    font-family:Arial, Helvetica, sans-serif
 }
 
 .navbar a {
   color: #000000;
-  font-size: 45px;
+  font-size: 35px;
+}
+.navbar a {
+  text-decoration: none;
+  font-weight: bold;
 }
 
 /* Home Page */
