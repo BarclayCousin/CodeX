@@ -340,9 +340,35 @@ html {
 }
 
 
+/*FAQ*/
 
+.faq-section {
+  padding: 50px;
+  text-align: center;
+  background-color:white;
+  color: #ffffff;
+}
+.h1faq {
+  color: rgb(0, 0, 0);
+  float: center;
+  font-size: 2 rem;
+  padding-bottom: 1cm;
+}
 
+.pfaq {
+  font-size: 1rem;
+  color: black;
+}
 
+.question {
+  font-size: 2rem;
+  padding-right: 1cm;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+.question {
+  padding-bottom: 0.5cm;
+}
 
 /* Feedback */
 .testimonials {
