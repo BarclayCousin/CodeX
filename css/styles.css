@@ -344,7 +344,7 @@ html {
 /*FAQ*/
 
 .faq-section {
-  padding: 50px;
+  padding: 40px;
   text-align: center;
   background-color:white;
   color: #ffffff;
@@ -352,13 +352,16 @@ html {
 .h1faq {
   color: rgb(0, 0, 0);
   float: center;
+  margin-left: 21cm;
   font-size: 2 rem;
-  padding-bottom: 1cm;
+  padding-bottom: 0.5cm;
 }
 
 .pfaq {
   font-size: 1rem;
+  margin-left: 21.7cm;
   color: black;
+  padding-bottom: 1cm;
 }
 
 .question {
