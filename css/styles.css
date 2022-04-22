@@ -343,150 +343,67 @@ html {
 
 /*FAQ*/
 
-.faq-section {
-  padding: 40px;
-  text-align: center;
-  background-color:white;
-  color: #ffffff;
-}
-.h1faq {
-  color: rgb(0, 0, 0);
-  float: center;
-  margin-left: 21cm;
-  font-size: 2 rem;
-  padding-bottom: 0.5cm;
-}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  }
 
-.pfaq {
-  font-size: 1rem;
-  margin-left: 21.7cm;
-  color: black;
-  padding-bottom: 1cm;
-}
+  .h1faq{
+    text-align: center;
+    padding-top: 30px;
+    font-size: 2rem;
+    font-family:'Barlow Semi Condensed', sans-serif ;
+  }
 
-.question {
-  font-size: 2rem;
-  padding-right: 1cm;
-  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
-}
+  .h2faq{
+    text-align: center;
+    font-size: 0.6cm;
+    font-weight: italic;
+    padding-top: 30px;
+    font-family:'Barlow Semi Condensed', sans-serif ;
+  }
+  
+  .wrapperfaq{
+  background: #fff;
+  width: 50%;
+  margin: 0 auto;
+  margin-top: 12%;
+  padding-bottom: 15cm;
+  }
 
-.question {
-  padding-bottom: 0.5cm;
-  text-align: center;
-}
+  .headerfaq{
+    padding: 16px;
+    font-size: 0.5cm;
+    letter-spacing: 2px;
+    background: #262626;
+    border-bottom: 1px solid #000;
+    cursor: pointer;
+    position: relative;
+    text-align: center;
+    user-select: none;
+    color: #fff;
+  }
+    
+  .textfaq{
+      padding: 16px;
+      font-weight: 1rem;
+      line-height: 24px;
+      display: none;
+      font-size: 1rem;
+      text-align: center;
+      font-size: 1.3rem;
+      }
 
-/* Feedback */
-.testimonials {
-  max-width: 1500px;
-  margin: 50px auto;
-  padding: 20px;
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 30px;
+  .header span{
+    position: absolute;
+    right: 20px;
+   }
 
-}
-
-a {
-  text-decoration: none;
-}
-
-.card {
-    background: #fff;
-    border-radius: 10px;
-    padding: 30px;
-    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
-    margin-bottom: 10px;
-    animation: slideInFromBottom 1s ease-in;
-
-}
-
-.card:hover {
-   cursor: pointer;
-
-}
-
-.card__header {
-    display: flex;
-    align-items: center;
-    margin-bottom: 10px;
-}
-
-.card__header h3 {
-    font-size: 15px;
-    opacity: 80%;
-}
-
-.card__header h3:hover {
-    opacity: 100%;
-}
-
-.card__header p {
-    opacity: 50%;
-}
-
-.card__img {
-    width: 60px;
-    height: 60px;
-    border-radius: 50%;
-    border: 2px solid #996ed9;
-    margin-right: 10px;
-    opacity: 97%;
-}
-
-.card__img:hover {
-opacity: 100%;
-}
-
-.card__lead {
-    font-size: 1.5rem;
-    font-weight: 500;
-    line-height: 1.3;
-    margin-bottom: 20px;
-}
-
-.card__quote {
-    font-size: 15px;
-    font-weight: 500;
-    line-height: 1.4;
-    opacity: 70%;
-}
-
-.card--bg-purple {
-    background: hsl(263, 55%, 52%);
-    color: white;
-    background-image: url(./images/bg-pattern-quotation.svg);
-    background-repeat: no-repeat;
-    background-position: top 10px right 100px;
-}
-
-.card--bg-gray-blue {
-    background: hsl(217,19%, 35%);
-    color: white;
-}
-
-.card--bg-black-blue {
-    background: hsl(219,29%, 14%);
-    color: white;
-}
-
-.card:nth-of-type(1) {
-    grid-column: 1 / 3;
-}
-
-.card:nth-of-type(4) {
-    grid-column: 2 / 4;
-    grid-row: 2;
-}
-
-.card:nth-of-type(5) {
-    grid-column: 4;
-    grid-row: 1 / 3;
-}
-.card:nth-of-type(6) {
-    grid-row: 3;
-    grid-column: 1 / 4;
-
-}
+  .active{
+    display: block;
+   }
+      
 
 /* animation */ 
 @keyframes slideInFromBottom {
