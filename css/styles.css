@@ -490,11 +490,15 @@ opacity: 100%;
     letter-spacing: 2px;
     background: #7f01fe;
     border-bottom: 1px solid #000;
+    border-left: 1px solid #000;
+    border-right: 1px solid #000;
+    
     cursor: pointer;
     position: relative;
     text-align: center;
     user-select: none;
     color: #fff;
+    border-radius: 5px;
   }
     
   .textfaq{
