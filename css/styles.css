@@ -455,12 +455,6 @@ opacity: 100%;
 
 /*FAQ*/
 
-*{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  }
-
   .h1faq{
     text-align: center;
     padding-top: 30px;
@@ -478,7 +472,7 @@ opacity: 100%;
   
   .wrapperfaq{
   background: #fff;
-  width: 50%;
+  width: 80%;
   margin: 0 auto;
   margin-top: 2%;
   padding-bottom: 15cm;
@@ -499,6 +493,7 @@ opacity: 100%;
     user-select: none;
     color: #fff;
     border-radius: 5px;
+
   }
     
   .textfaq{
@@ -519,6 +514,7 @@ opacity: 100%;
 
   .active{
     display: block;
+
    }
       
 
