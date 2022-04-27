@@ -383,8 +383,8 @@ html {
 /* Feedback */
 .testimonials {
   max-width: 1500px;
-  margin: 50px auto;
-  padding: 20px;
+  margin: 55px auto;
+  padding: 25px;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 30px;
@@ -454,20 +454,17 @@ opacity: 100%;
     opacity: 70%;
 }
 
-.card--bg-purple {
-    background: hsl(263, 55%, 52%);
+.card--colour-purple {
+    background: #7f01fe;
     color: white;
-    background-image: url(./images/bg-pattern-quotation.svg);
-    background-repeat: no-repeat;
-    background-position: top 10px right 100px;
 }
 
-.card--bg-gray-blue {
+.card--colour-gray-blue {
     background: hsl(217,19%, 35%);
     color: white;
 }
 
-.card--bg-black-blue {
+.card--colour-black-blue {
     background: hsl(219,29%, 14%);
     color: white;
 }
