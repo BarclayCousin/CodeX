@@ -17,7 +17,12 @@ a {
 
 /* Home Page */
 
-
+.column_home {
+  float: left;
+  width: 33.33%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
 
 
 
