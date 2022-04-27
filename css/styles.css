@@ -19,7 +19,7 @@ a {
 
 .column_home {
   float: left;
-  width: 33.33%;
+  width: 32.38%;
   margin-bottom: 16px;
   padding: 0 8px;
 }
@@ -53,9 +53,9 @@ a {
 .homecontainer {
   padding: 0 16px;
   float: center;
-  border: 1px solid rgb(0, 0, 0);
+  border: 0.25px solid rgb(0, 0, 0);
   border-style: double;
-  background-color: #d9d9d9;
+  background-color: #dbdbdb;
   color: black;
 }
 
@@ -383,11 +383,11 @@ html {
 /* Feedback */
 .testimonials {
   max-width: 1500px;
-  margin: 55px auto;
-  padding: 25px;
+  margin: 60px auto;
+  padding: 20px;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 30px;
+  gap: 25px;
 
 }
 
@@ -397,7 +397,7 @@ html {
     background: #fff;
     border-radius: 10px;
     padding: 30px;
-    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     margin-bottom: 10px;
     animation: slideInFromBottom 1s ease-in;
 
@@ -431,7 +431,7 @@ html {
     width: 60px;
     height: 60px;
     border-radius: 50%;
-    border: 2px solid #996ed9;
+    border: 2px solid #a67fe1;
     margin-right: 10px;
     opacity: 97%;
 }
@@ -450,7 +450,6 @@ opacity: 100%;
 .card__quote {
     font-size: 15px;
     font-weight: 500;
-    line-height: 1.4;
     opacity: 70%;
 }
 
@@ -459,13 +458,13 @@ opacity: 100%;
     color: white;
 }
 
-.card--colour-gray-blue {
-    background: hsl(217,19%, 35%);
+.card--colour-grey {
+    background: rgb(72, 85, 106);
     color: white;
 }
 
 .card--colour-black-blue {
-    background: hsl(219,29%, 14%);
+    background: rgb(25, 33, 46);
     color: white;
 }
 
