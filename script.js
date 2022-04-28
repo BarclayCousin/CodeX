@@ -10,7 +10,7 @@ toggleButton.addEventListener('click', () => {
 /* Login Page */
 
 function pageChange() {
-  window.location.href="homepage.html";  
+  window.location.href="index.html";  
 }
 
 /* FAQ Page */
