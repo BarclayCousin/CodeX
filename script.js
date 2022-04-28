@@ -7,6 +7,12 @@ toggleButton.addEventListener('click', () => {
   navbarLinks.classList.toggle('active')
 })
 
+/* Login Page */
+
+function pageChange() {
+  window.location.href="homepage.html";  
+}
+
 /* FAQ Page */
 
 let header = document.querySelectorAll(".headerfaq");
