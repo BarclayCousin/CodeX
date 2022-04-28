@@ -391,6 +391,12 @@ html {
 
 }
 
+.fabout-section {
+  padding: 0.1cm;
+  text-align: center;
+  background-color:white;
+  color: #ffffff;
+}
 
 
 .card {
