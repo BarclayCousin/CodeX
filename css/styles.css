@@ -150,7 +150,7 @@ form .txtbox{
   width: 100%;
 }
 
-button[type="submit"]{
+input[type="button"]{
   width: 100%;
   height: 50px;
   border: 1px solid;
