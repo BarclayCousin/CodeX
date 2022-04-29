@@ -19,9 +19,14 @@ Install Live Server Within IDE
 Ensure an internet browser is installed
 The following steps must be replicated to successfully pull a copy of the CodeX project. Obtain the CodeX repository URL (https://github.com/BarclayCousin/CodeX) then open Visual Studio. On the side select “clone repository” and select a file storage area. After waiting for the download you should open the file with Visual Studio. On any HTML file, the user should right-mouse click and select “open with live server” and the project will open in your default internet browser. If you wish to change your default browser it can be done by following the below documentation.
 https://support.microsoft.com/en-us/windows/change-your-default-browser-in-windows-10-020c58c6-7d77-797a-b74e-8f07946c5db6
+
 View Live Copy:
 
-The CodeX development team have made the artefact live and is hosted by industry leading Netlify. It can be viewed by clicking the following link. https://codex.ga/ Note: If you are using a worldwide VPN or outside of the United Kingdom this may not work due to Netlify Terms and Conditions. In this scenario please view the project by following the alternative documented option. 
+The CodeX development team have made the artefact live and is hosted by industry leading Netlify. It can be viewed by clicking the following link.
+https://codex.ga/ 
+
+Note: If you are using a worldwide VPN or outside of the United Kingdom this may not work due to Netlify Terms and Conditions. In this scenario please view the project by following the alternative documented option. 
+
 Thank you for your interest and happy viewing!
 
 Kindest Regards
